@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Educativa Interactiva</title>
+</head>
+<body>
+    <div>
+        <div>
+            <a href="Archivo2.html"><h2>Volver atras</h2></a>
+        </div>
+        <div><h1><center><u>Categorias</u></center></h1></div>
+        <div>
+            <label for="volumen">Buscar</label><!--Aqui use un input para simular la seleccion de categorias-->
+            <input list="data" type="text" placeholder="Buscar Categorias">
+            <datalist id="data">
+                <option value="Facil"></option>
+                <option value="Dificil"></option>
+                <option value="Experto"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="volumen">Nivel de dificultad:</label><!--Barra para seleccionar el nivel de dificultad-->
+            <input type="range" name="volumen" min="1" max="5" id="volumen" value="3" step="1" list="volList">
+            <datalist id="volList">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="volumen">Duracion: </label><!--Barra para seleccionar la duracion del curso-->
+            <label>1Min</label>
+            <input type="range" name="volumen" min="1" max="5" id="volumen" value="3" step="1" list="volList">
+            <datalist id="volList">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+            </datalist>
+            <label>5Min</label>
+        </div>
+        <div style="display: flex;"><!--Aqui estan las imagenes de los cursos con sus links de direcionamiento-->
+            <figure id="seccion1">
+                <img src="https://pasteleriasduparadis.com/wp-content/uploads/2020/01/pasteler%C3%ADa.png" alt="Curso de reposteria" width="250" height="200">
+                <figcaption><a href="Curso_de_reposteria.html">Curso de reposteria</a></figcaption>
+            </figure> 
+            <figure>    
+                <img src="https://i.pinimg.com/736x/a0/39/3c/a0393c3003b543516afc1f292025cd76.jpg" alt="Curso de Arte" width="250" height="200">
+                <figcaption><a href="Curso_de_Arte.html">Curso de Arte</a></figcaption>
+            </figure>
+            <figure>
+                <img src="https://epicbeauty.pro/wp-content/uploads/2020/09/TECMAQSOCIAL.jpg" alt="Curso de maquillaje" width="250" height="200">
+                <figcaption><a href="Curso_de_maquillaje.html">Curso de maquillaje</a></figcaption>
+            </figure>
+            <figure>
+                <img src="https://educagratis.cl/moodle/file.php/172/Curso-de-Comida-Mexicana-Clases-Cocina-de-Mexico.jpg" alt="Curso de cocina online" width="250" height="200">
+                <figcaption><a href="Curso_cocina_mexicana.html">Curso de cocina mexicana</a></figcaption>
+            </figure>                
+        </div>
+        <div style="display: flex;">
+            <figure>
+                <img src="https://polotecnologico.net/wp-content/uploads/2019/09/reparacion-de-pc_Mesa-de-trabajo_Mesa-de-trabajo-1.jpg" alt="Curso de reposteria" width="250" height="200">
+                <figcaption><a href="Curso_de_reparacion_pc.html">Curso de reparacion de pc</a></figcaption>
+            </figure>
+            <figure>
+                <img src="https://emprendecontuweb.com/wp-content/uploads/2023/04/curso-ingles-online.jpg" alt="Curso de reposteria" width="250" height="200">
+                <figcaption><a href="Curso_de_ingles.html">Curso de ingles online</a></figcaption>
+            </figure>
+            <figure>
+                <img src="https://www.aipbarcelona.com/wp-content/uploads/2016/08/mecanografia-curaso-aip-bracelona.png" alt="Curso de maquillaje" width="250" height="200">
+                <figcaption><a href="Curso_de_mecanografia.html">Curso de mecanografia</a></figcaption>
+            </figure>
+            <figure id="programacion">
+                <img src="https://cursos.aiu.edu/images/maxresdefault.jpg" alt="Curso de cocina online" width="250" height="200">
+                <figcaption><a href="Curso_de_programacion.html">Curso de programacion</a></figcaption>
+            </figure>
+        </div>
+    </div>        
+</body>
+</html>
